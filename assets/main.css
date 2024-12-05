@@ -1,0 +1,14 @@
+img {
+  width: 200px;
+  border-radius: 50px;
+}
+
+em {
+  color: red;
+  font-style: normal;
+}
+
+body {
+  background-color: #333;
+  color: whitesmoke;
+}
