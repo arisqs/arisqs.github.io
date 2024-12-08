@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox practice</title>
+  </head>
+  <body>
+    <!-- acts like an inline block element -->
+    <div style="display: flex; flex-direction: row">
+      <div style="background-color: lightblue">div1</div>
+      <div style="background-color: lightpink">
+        div2
+        <p>text</p>
+      </div>
+    </div>
+
+    <!-- main advantage is that the flexbox will keep its sizing -->
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: lightblue; width: 100px">div1</div>
+      <div style="background-color: lightpink; flex: 1">div2</div>
+      <div style="background-color: lightblue; flex: 2">div1</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        height: 70px;
+        justify-content: end;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">div1</div>
+      <div style="background-color: lightpink; width: 100px">div2</div>
+      <div style="background-color: lightblue; width: 100px">div1</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        height: 70px;
+        justify-content: space-between;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">div1</div>
+      <div style="background-color: lightpink; width: 100px">div2</div>
+      <div style="background-color: lightblue; width: 100px">div1</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        height: 70px;
+        justify-content: space-between;
+        border: 1px solid #333;
+        align-items: end;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">div1</div>
+      <div style="background-color: lightpink; width: 100px">div2</div>
+      <div style="background-color: lightblue; width: 100px">div1</div>
+    </div>
+  </body>
+</html>
